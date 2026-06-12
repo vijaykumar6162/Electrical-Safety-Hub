@@ -340,3 +340,27 @@ footer{
     margin-top:20px;
     font-size:14px;
 }
+.founder-box{
+    margin:25px auto;
+    padding:15px 25px;
+    max-width:500px;
+    border:2px solid #00bcd4;
+    border-radius:12px;
+    background:rgba(0,188,212,0.08);
+    text-align:center;
+}
+
+.founder-box h3{
+    margin:0;
+    color:#00e5ff;
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.founder-box p{
+    margin-top:5px;
+    color:white;
+    font-size:15px;
+    letter-spacing:2px;
+}
