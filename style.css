@@ -284,3 +284,59 @@ nav ul li a{
     text-decoration:none;
     font-weight:bold;
 }
+/* CONTACT SECTION */
+
+.contact-section{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.contact-section h2{
+    color:#00BFFF;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.contact-section p{
+    color:#d6d6d6;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.contact-btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#00BFFF;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.contact-btn:hover{
+    transform:translateY(-3px);
+}
+
+/* FOOTER */
+
+footer{
+    background:#081221;
+    padding:40px 20px;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,0.08);
+}
+
+.footer-content h3{
+    color:#00BFFF;
+    margin-bottom:15px;
+}
+
+.footer-content p{
+    color:#bdbdbd;
+    line-height:1.8;
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+}
