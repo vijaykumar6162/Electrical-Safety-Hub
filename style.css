@@ -42,28 +42,106 @@ nav ul li a{
 
 /* Hero */
 
+/* HERO SECTION */
+
 .hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    padding:120px 20px;
+    padding:50px 20px;
+
+    background:
+    linear-gradient(
+    rgba(10,25,47,0.92),
+    rgba(10,25,47,0.92)
+    ),
+    url("https://images.unsplash.com/photo-1517048676732-d65bc937f952");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.badge{
+    display:inline-block;
+    padding:10px 20px;
+    background:#112240;
+    border:1px solid #00BFFF;
+    border-radius:50px;
+    color:#00BFFF;
+    font-weight:bold;
+    margin-bottom:25px;
 }
 
 .hero h1{
-    font-size:60px;
-    color:#00BFFF;
+    font-size:65px;
+    line-height:1.2;
+    margin-bottom:25px;
 }
 
 .hero p{
-    margin-top:20px;
     font-size:22px;
+    line-height:1.8;
+    color:#d6d6d6;
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
 }
 
 .btn{
-    display:inline-block;
-    margin-top:30px;
-    padding:15px 30px;
+    padding:15px 35px;
     background:#00BFFF;
     color:white;
     text-decoration:none;
     border-radius:8px;
     font-weight:bold;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.btn-outline{
+    padding:15px 35px;
+    border:2px solid #00BFFF;
+    color:#00BFFF;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn-outline:hover{
+    background:#00BFFF;
+    color:white;
+}
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:38px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
 }
