@@ -194,3 +194,47 @@ nav ul li a{
     color:#d6d6d6;
     line-height:1.7;
 }
+/* WARNING SECTION */
+
+.warning-section{
+    padding:80px 8%;
+}
+
+.warning-box{
+    background:linear-gradient(
+    135deg,
+    #ff4d4d,
+    #cc0000
+    );
+
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(255,0,0,0.25);
+}
+
+.warning-box h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.warning-box p{
+    font-size:20px;
+    margin-bottom:40px;
+    line-height:1.8;
+}
+
+.rules{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.rule{
+    background:rgba(255,255,255,0.12);
+    padding:20px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:600;
+}
