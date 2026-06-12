@@ -238,3 +238,49 @@ nav ul li a{
     font-size:18px;
     font-weight:600;
 }
+/* GUIDES SECTION */
+
+.guides-section{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.guide-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.guide-card{
+    background:#112240;
+    padding:30px;
+    border-radius:15px;
+    text-align:left;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.08);
+}
+
+.guide-card:hover{
+    transform:translateY(-10px);
+    border-color:#00BFFF;
+    box-shadow:0 10px 30px rgba(0,191,255,0.25);
+}
+
+.guide-card h3{
+    color:#00BFFF;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.guide-card p{
+    color:#d6d6d6;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.guide-card a{
+    color:#00BFFF;
+    text-decoration:none;
+    font-weight:bold;
+}
